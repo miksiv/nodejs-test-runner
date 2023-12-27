@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --test --test-reporter=tap --test-reporter-destination=report.txt"
+    "test": "node --test --test-reporter=tap --test-reporter-destination=report.txt",
+    "test:cov": "node --test --experimental-test-coverage --test-reporter=tap --test-reporter-destination=coverage.txt"
   },
   "author": "mikhail.sivinskikh@bwt.ee",
   "license": "ISC"
