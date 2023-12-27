@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --test --watch"
+    "test": "node --test --test-reporter=tap --test-reporter-destination=report.txt"
   },
   "author": "mikhail.sivinskikh@bwt.ee",
   "license": "ISC"
